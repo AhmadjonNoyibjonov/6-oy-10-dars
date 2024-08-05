@@ -1,6 +1,10 @@
 import React, { useContext } from "react";
 import styles from "./index.module.css";
 import { ThemeContext, LanguageContext } from "../../App";
+import hero from "../../assets/images/hero.png";
+import heroImage from "../../assets/images/heroImage.png";
+import image from "../../assets/images/image.png";
+
 
 function Hero() {
   const { theme, setTheme } = useContext(ThemeContext);
@@ -12,7 +16,7 @@ function Hero() {
 
   const texts = {
     en: {
-      welcome: "Welcome to our site",
+      welcome: "Let your come to you",
       groceries: "groceries",
       description:
         "Get fresh groceries online without stepping out to make delicious food with the freshest ingredients.",
@@ -114,20 +118,16 @@ function Hero() {
         </div>
       </div>
       <div>
-        <img
-          className={styles.heroImage}
-          src="public/images/hero.png"
-          alt="Groceries delivery"
-        />
+        <img className={styles.heroImage} src={hero} alt="Groceries delivery" />
       </div>
       <div className={styles.heroImg}>
         <div className={styles.wrapper}>
-          <img src="public/images/heroImage.png" alt="" />
+          <img src={heroImage} alt="" />
           <p>{t.freshSpinach}</p>
           <p>$12.00</p>
         </div>
         <div className={styles.wrapper}>
-          <img className={styles.image} src="public/images/image.png" alt="" />
+          <img className={styles.image} src={image} alt="" />
           <p>{t.freshCarrot}</p>
           <p>$9.00</p>
         </div>

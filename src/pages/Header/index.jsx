@@ -2,23 +2,23 @@ import React, { useContext } from "react";
 import { useTranslation } from "react-i18next";
 import styles from "./index.module.css";
 import { ThemeContext, LanguageContext } from "../../App";
+import logo from "../../assets/images/logo.svg";
 
 function Header() {
   const { t, i18n } = useTranslation();
   const { theme } = useContext(ThemeContext);
   const { language, setLanguage } = useContext(LanguageContext);
 
-
   function changeLanguage(e) {
     i18n.changeLanguage(e.target.value);
-    setLanguage(e.target.value)
+    setLanguage(e.target.value);
   }
 
   return (
     <header className={`${styles.header} ${styles[theme]}`}>
       <div className={styles.logo}>
         <a href="logo">
-          <img src="public/images/logo.svg" alt="" />
+          <img src={logo} alt="" />
         </a>
       </div>
       <nav className={styles.nav}>
