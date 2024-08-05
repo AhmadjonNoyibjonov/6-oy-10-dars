@@ -1,0 +1,168 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.heroText {
+  max-width: 500px;
+}
+
+.heroText h1 {
+  width: 700px;
+  margin-top: -2px;
+  font-size: 70px;
+  color: rgba(64, 60, 57, 1);
+}
+
+.highlight {
+  color: #ff6f3d;
+}
+
+.searchBar {
+  display: flex;
+  margin-top: 20px;
+}
+
+.searchBar input {
+  width: 300px;
+  padding: 10px;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #ccc;
+  outline-color: blue;
+}
+
+.searchBar button {
+  background-color: #ff6f3d;
+  color: #fff;
+  width: 40px;
+  border: none;
+  padding: 10px;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+}
+
+.btnSpan {
+  display: flex;
+  align-items: center;
+}
+
+.mode:nth-child(2) {
+  padding: 12px 22px;
+  background: transparent;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mode:nth-child(1) {
+  background: transparent;
+  border: none;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+.mode:nth-child(1) img {
+  border-radius: 20px;
+  padding: 0px;
+}
+
+.wrapper img {
+  width: 120px;
+  height: 120px;
+  margin-left: 10px;
+}
+
+.wrapper p {
+  margin-top: -5px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+
+.wrapper p:nth-child(3) {
+  color: #ff6f3d;
+}
+
+.wrapper {
+  background-color: rgba(243, 129, 96, 0.05);
+  border: 1px solid #ccc;
+  width: 140px;
+  height: 180px;
+  padding: 5px;
+  margin-top: 20px;
+  margin-left: -20px;
+  border-radius: 25px;
+}
+
+.heroImg {
+  margin-top: -150px;
+}
+
+.searchinfo {
+  margin-top: 20px;
+}
+
+.heroText p {
+  width: 530px;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 40px;
+  text-align: left;
+  color: rgba(148, 148, 148, 1);
+}
+
+.searchinfo .span {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: rgba(148, 148, 148, 1);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+
+  margin-bottom: 10px;
+}
+
+.searchinfo i {
+  color: rgba(240, 183, 13, 1);
+  border-radius: 12px;
+  border: none;
+}
+
+.heroImage {
+  width: 850px;
+  margin-top: -150px;
+  margin-left: -100px;
+}
+
+.active {
+  font-weight: bold;
+}
+
+.lightMode {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.darkMode {
+  background-color: greenyellow;
+}
+
+.darkMode p {
+  color: rgb(255, 255, 255);
+}
+
+.darkMode h1 {
+  color: #ccc;
+}
