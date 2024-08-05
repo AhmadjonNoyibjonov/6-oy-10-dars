@@ -18,7 +18,7 @@ function Header() {
     <header className={`${styles.header} ${styles[theme]}`}>
       <div className={styles.logo}>
         <a href="logo">
-          <img src="/src/assets/images/logo.svg" alt="" />
+          <img src="public/images/logo.svg" alt="" />
         </a>
       </div>
       <nav className={styles.nav}>

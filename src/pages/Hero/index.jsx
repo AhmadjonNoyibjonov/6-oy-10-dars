@@ -116,22 +116,18 @@ function Hero() {
       <div>
         <img
           className={styles.heroImage}
-          src="src/assets/images/hero.png"
+          src="public/images/hero.png"
           alt="Groceries delivery"
         />
       </div>
       <div className={styles.heroImg}>
         <div className={styles.wrapper}>
-          <img src="src/assets/images/heroImage.png" alt="" />
+          <img src="public/images/heroImage.png" alt="" />
           <p>{t.freshSpinach}</p>
           <p>$12.00</p>
         </div>
         <div className={styles.wrapper}>
-          <img
-            className={styles.image}
-            src="src/assets/images/image.png"
-            alt=""
-          />
+          <img className={styles.image} src="public/images/image.png" alt="" />
           <p>{t.freshCarrot}</p>
           <p>$9.00</p>
         </div>
